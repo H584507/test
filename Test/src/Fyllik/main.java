@@ -12,9 +12,11 @@ public class main {
 	 *                       Fylliken står midt i mellom puben og hjemmet.
 	 */
 	public static void gåHjem(int skrittDistanse) {
-
+		
+		// Posisjonen til fylliken bla bla
 		int posisjon = skrittDistanse;
 
+		
 		while (posisjon > 0 && posisjon < skrittDistanse * 2) {
 			if (Math.random() < 0.5) {
 				posisjon += 1;
